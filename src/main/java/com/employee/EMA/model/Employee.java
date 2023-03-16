@@ -6,7 +6,7 @@ public class Employee {
     private String firstName;
     private String lastName;
     private String emailId;
-
+    //This default constructor is here to help hibernate to create proxy objects without parameters.
     public Employee(){
 
     }
